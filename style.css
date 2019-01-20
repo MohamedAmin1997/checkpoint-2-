@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny|Dancing+Script|Indie+Flower|Lobster');
+body {
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1546180147-af9074ff24aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=550&q=20);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.first{
+    color: rgb(105, 6, 6);
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    left: 0;
+    top: 20%; 
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+}
+
+
+
+
+.second{
+    
+    font-family: 'Dancing Script', cursive;
+    color: rgb(19, 19, 216);
+    font-size: 50px;
+    margin-left: 200px;
+
+}
+.principale{
+    margin: 0 100px;
+}
+
+.article{
+    display: inline-block;
+    text-align: justify;
+    width: 48%;
+    height: 200px;
+    overflow: hidden;
+    border: 1px groove black;
+    background-color: rgb(163, 167, 168);
+}
+.article:hover{
+    border-style: solid;
+    border-width: 5px;
+}
+#p3{
+    background: rgb(43, 42, 42);
+}
+#p4{
+    background: rgb(43, 42, 42);
+}
